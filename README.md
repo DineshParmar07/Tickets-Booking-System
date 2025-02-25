@@ -1,2 +1,4 @@
 # Tickets-Booking-System
-This is my first Java-Backend Project to learn about basics of Functional-requirements ,Low-Level Design and Gradle tool 
+Author - Dinesh Parmar
+This is my first Java backend project to learn about the basics of functional requirements, low-level design, and the Gradle tool.
+
