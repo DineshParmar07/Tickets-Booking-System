@@ -1,0 +1,44 @@
+[
+  {
+    "train_no": "abcd",
+    "train_id": "1234",
+
+    "seats": [
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "stations": [
+      "Pune",
+      "Solapur",
+      "Bangalore"
+    ],
+    "stations_times": {
+      "Pune":"20:10:00",
+      "Solapur":"22:45:00" ,
+      "Bangalore":"00:10:00"
+    }
+  },
+  {
+    "train_no": "defg",
+    "train_id": "5678",
+
+    "seats": [
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "stations": [
+      "Pune",
+      "Mumbai",
+      "Jodhpur"
+    ],
+    "stations_times": {
+      "Pune":"07:30:00",
+      "Mumbai":"10:45:00" ,
+      "Jodhpur":"04:20:00"
+    }
+  }
+]

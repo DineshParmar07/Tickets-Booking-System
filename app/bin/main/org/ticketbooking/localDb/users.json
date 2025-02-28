@@ -1,0 +1,86 @@
+[
+
+    {
+      "user_name":"Sanjay",
+      "user_id": "sanjay@12345",
+      "password":"12345",
+      "hashed_password":"$2a$10$MqonEcizso4Re9iFEMajHOIHCUd5O3Q.XZX779C50ZnC/Hb6mirwW",
+
+      "tickets_booked":[
+      {
+        "ticket_id":"abcd@123",
+        "user_id":"sanjay@12345",
+        "source":"Pune",
+        "destination":"Bangalore",
+        "date_of_travel":"2023-12-08T18:30:00Z",
+
+        "train":{
+          "train_id": "abcd",
+          "train_no": "1234",
+
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": [
+            "Pune",
+            "Solapur",
+            "Bangalore"
+          ],
+          "stations_times": {
+            "Pune":"20:10:00",
+            "Solapur":"22:45:00" ,
+            "Bangalore":"00:10:00"
+          },
+          "train_info":"Train ID: abcd Train No: 1234"
+        },
+        "ticket_info":"Ticket ID: abcd@123 belongs to User sanjay@12345 from Pune to Bangalore on 2023-12-08T18:30:00Z"
+      }
+     ]
+    },
+    {
+      "user_name":"Dinesh",
+      "user_id": "dinesh@67890",
+      "password": "67890",
+      "hashed_password" : "$2a$10$O/OWE.xh3gttMANiM4BIX.mo.4/myik1J739DZ25ecVENk8xhMCW2",
+
+      "tickets_booked": [
+      {
+        "ticket_id":"defg@345",
+        "user_id":"dinesh@67890",
+        "source":"Pune",
+        "destination":"Jodhpur",
+        "date_of_travel":"2024-03-13T07:00:00Z",
+
+        "train":{
+          "train_id": "defg",
+          "train_no": "5678",
+
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": [
+            "Pune",
+            "Mumbai",
+            "Jodhpur"
+          ],
+          "stations_times": {
+            "Pune": "07:30:00",
+            "Mumbai": "10:45:00",
+            "Jodhpur": "04:20:00"
+          },
+          "train_info":"Train ID: defg Train No: 5678"
+
+        },
+        "ticket_info":"Ticket ID: defg@345 belongs to User dinesh@67890 from Pune to Jodhpur on 2024-03-13T07:00:00Z"
+      }
+    ]
+
+
+  }
+]
